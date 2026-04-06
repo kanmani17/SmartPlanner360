@@ -1,0 +1,53 @@
+# Binaries and build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Appsettings (ignore production secrets, but keep development)
+appsettings.json
+!appsettings.Development.json
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Solution Explorer files (optional, as they are user-specific)
+*.slnx
